@@ -4,7 +4,8 @@ const modifier = (text) => {
 
   // Add custom code here
 
-  // Plugins
+  // The plugin will take the entire context and do a search for matching
+  // World Info keys making sure to take into account comma separated keys.
   trackingPlugin.execute(modifiedText)
 
   return { text: modifiedText }

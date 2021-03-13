@@ -5,3 +5,9 @@
 A plugin that detects World Info entries in your context and display's them in the AID stats UI.
 
 ![Tracking Plugin in Action](https://cdn.discordapp.com/attachments/717764081058185316/817918617806307368/unknown.png)
+
+**Note:** This plugin will only detect VANILLA style keys (ie, comma separated strings). If you are using the EWIJSON script, this plugin cannot detect it's injected context. 
+
+## Usage
+
+Add the `trackingPlugin.execute(modifiedText)` call somewhere in your `contextModifier` script.
