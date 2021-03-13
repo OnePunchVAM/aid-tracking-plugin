@@ -5,7 +5,7 @@ const modifier = (text) => {
   // Add custom code here
 
   // Plugins
-  modifiedText = trackingPlugin.contextModifier(modifiedText)
+  trackingPlugin.execute(modifiedText)
 
   return { text: modifiedText }
 }
