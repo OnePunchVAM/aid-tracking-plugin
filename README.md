@@ -10,4 +10,7 @@ A plugin that detects World Info entries in your context and display's them in t
 
 ## Usage
 
-Add the `trackingPlugin.execute(modifiedText)` call somewhere in your `contextModifier` script.
+In order to detect what has been injected, the Tracking Plugin needs to be called somewhere in your `contextModifier` script:
+```js
+trackingPlugin.execute(modifiedText)
+```
